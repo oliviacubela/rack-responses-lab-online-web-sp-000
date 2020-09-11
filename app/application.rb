@@ -1,13 +1,13 @@
-# class Application
-#
-#   def call(env)
-#     resp = Rack::Response.new
-#
-#     greeting_1 =
-#     greeting_2 =
-#
-#   end
-# end
+class Application
+
+  def call(env)
+    return [ 200, {'Content-Type' => 'text/html'}, greeting_response ]
+  end
+
+  def greeting_response
+    (Time.now.hour < 12) ? ["<em>Good Morning!</em>"] : ["<em>Good Afternoon!</em>"]
+  end
+end
 #
 #
 # t = Time.now
