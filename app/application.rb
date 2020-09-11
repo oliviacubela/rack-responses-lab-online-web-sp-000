@@ -1,18 +1,18 @@
 # class Application
-# 
+#
 #   def call(env)
 #     resp = Rack::Response.new
-# 
-#     greeting_1 = 
+#
+#     greeting_1 =
 #     greeting_2 =
-# 
+#
 #   end
 # end
-# 
-# 
+#
+#
 # t = Time.now
 # if t.hour < 12 --> "good morning!"
-# else 
+# else
 #   "good afternoon!"
 # end
 
