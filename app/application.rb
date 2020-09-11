@@ -8,6 +8,7 @@ class Application
     (Time.now.hour < 12) ? ["<em>Good Morning!</em>"] : ["<em>Good Afternoon!</em>"]
   end
 end
+
 #
 #
 # t = Time.now
