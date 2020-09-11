@@ -1,13 +1,21 @@
-class Application
+# class Application
+# 
+#   def call(env)
+#     resp = Rack::Response.new
+# 
+#     greeting_1 = 
+#     greeting_2 =
+# 
+#   end
+# end
+# 
+# 
+# t = Time.now
+# if t.hour < 12 --> "good morning!"
+# else 
+#   "good afternoon!"
+# end
 
-  def call(env)
-    resp = Rack::Response.new
-
-    greeting_1 =
-    greeting_2 =
-
-  end
-end
 
 # class MyServer
 #   def call(env)
@@ -18,7 +26,6 @@ end
 #     (Time.now.to_i % 2).zero? ?  ["<em>Hello</em>"] : ["<strong>Hello</strong>"]
 #   end
 # end
-
 
 
 # class Application
